@@ -57,7 +57,7 @@ const RecPage = () => {
                     <div className="login-image-overlay"></div>
                     <div className="login-text">
                         <h2>Se prepare para Editais de forma otimizada.</h2>
-                        <p>Com o Edital Revisado, você vai aprender de forma moderna, preparando-se de forma completa para seus editais.</p>
+                        <p>Com a Plataforma de Cursos, você vai aprender de forma moderna, preparando-se de forma completa para seus objetivos.</p>
                     </div>
                 </div>
                 <img src={`${process.env.PUBLIC_URL}/images/lines.svg`} alt="Decorative Lines" className="login-decorative-lines" />

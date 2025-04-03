@@ -16,7 +16,7 @@ const LoginPage = () => {
 
     // Verificar se o usuário já está logado
     useEffect(() => {
-        document.title = "Edital Revisado";
+        document.title = "Plataforma de Cursos";
         const token = localStorage.getItem('token') || sessionStorage.getItem('token');
         const role = localStorage.getItem('role') || sessionStorage.getItem('role');
 
@@ -85,7 +85,7 @@ const LoginPage = () => {
                     <div className="login-image-overlay"></div>
                     <div className="login-text">
                         <h2>Se prepare para Editais de forma otimizada.</h2>
-                        <p>Com o Edital Revisado, você vai aprender de forma moderna, preparando-se de forma completa para seus editais.</p>
+                        <p>Com a Plataforma de Cursos, você vai aprender de forma moderna, preparando-se de forma completa para seus objetivos.</p>
                     </div>
                 </div>
                 <img src={`${process.env.PUBLIC_URL}/images/lines.svg`} alt="Decorative Lines" className="login-decorative-lines" />
