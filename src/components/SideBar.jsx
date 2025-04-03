@@ -113,7 +113,7 @@ const Sidebar = ({ onToggle }) => {
         <i className="fas fa-bars" />
         {isExpanded && (
           <img 
-            src={`${process.env.PUBLIC_URL}/images/logo-transparent.png`} 
+            src={`${process.env.PUBLIC_URL}/images/logo-transparentt.png`} 
             alt="Logo" 
             className="sidebar-logo"
           />

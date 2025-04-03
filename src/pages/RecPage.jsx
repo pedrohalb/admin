@@ -53,10 +53,10 @@ const RecPage = () => {
         <div className="login-container">
             <div className="login-left">
                 <div className="login-left-content">
-                    <img src={`${process.env.PUBLIC_URL}/images/bg-login.webp`} alt="Login Background" className="login-bg-image" />
+                    <img src={`${process.env.PUBLIC_URL}/images/bg-loginn.png`} alt="Login Background" className="login-bg-image" />
                     <div className="login-image-overlay"></div>
                     <div className="login-text">
-                        <h2>Se prepare para Editais de forma otimizada.</h2>
+                        <h2>Se prepare para seus objetivos de forma otimizada.</h2>
                         <p>Com a Plataforma de Cursos, você vai aprender de forma moderna, preparando-se de forma completa para seus objetivos.</p>
                     </div>
                 </div>
@@ -65,7 +65,7 @@ const RecPage = () => {
 
             <div className="login-right">
                 <div className="login-form-container">
-                    <img src={`${process.env.PUBLIC_URL}/images/logo-transparent.png`} alt="Logo" className="login-logo" />
+                    <img src={`${process.env.PUBLIC_URL}/images/logo-transparentt.png`} alt="Logo" className="login-logo" />
                     <div className="login-header">
                         <h2>Esqueceu a senha?</h2>
                         <p>Preencha o seu e-mail para receber o link de recuperação.</p>
